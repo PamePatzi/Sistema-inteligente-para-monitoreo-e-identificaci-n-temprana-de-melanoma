@@ -1,0 +1,2 @@
+#Instalación de las librerias necesarias para el .py
+python -m pip install numpy matplotlib python-telegram-bot requests datetime tensorflow
