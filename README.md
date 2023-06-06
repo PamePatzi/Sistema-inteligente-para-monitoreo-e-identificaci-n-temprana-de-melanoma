@@ -4,3 +4,27 @@ Sobre el modelo, se realiza un modelo convolucional, CNN, esto a causa del uso d
 Por otro lado se realiza otro modelo haciendo uso de un modelo pre entrenado como base, con la finalidad de comparar los resultados de accuracy y loss para tener una idea más amplia de como podria mejorar nuestro modelo.
 Ya con el modelo entrenado se cuenta con el sensor, que en este caso es una cámara web, y el actuador, que sera un bot de mensajes para que el resultado del modelo sea enviado directamente al doctor encargado o al paciente.
 
+## Dentro del proyecto puede encontrar:
+* Carpeta: libreria: Se encuentran las librerias necesarias para correr el .py
+* Carpeta: saved_model: Se encuentra el modelo entrenado ya descargado
+* ImplementaciónDetectorMelanoma: código en GoogleColab, en el que se realiza la predicción con la cámara web.
+* MelanomaModelo1: Modelo CNN del proyecto con algunas pruebas de funcionamiento.
+* Pasos para el uso: pdf, con el instructivo para correr el archivo "main con mensaje.py" desde una nueva computadora
+* Preview.txt: comandos para la descarga de librerias
+* finalSIS: pdf con el reporte final del proyecto
+* main con mensaje: archivo .py completo del proyecto con el uso del sensor y del actuador.
+* main: archivo .py con el cargado y prueba del modelo con solo la cámara
+* melanoma_a_s_a_p: modelo CNN usando un modelo base pre entrenado
+## Contribución por miembro de equipo ASAP
+| Documento | Integrantes involucrados|
+| ----- | -------- |
+|Carpetas| Sebastián Castro|
+|ImplementaciónDetectorMelanoma| Andres Hinojosa|
+|MelanomaModelo1| Ariel Clemente, Pamela Patzi|
+|Pasos para el uso|Sebastián Castro, Ariel Clemente, Pamela Patzi |
+|Preview.txt| Ariel Clemente|
+|finalSIS| Sebastián Castro, Ariel Clemente, Andres Hinojosa, Pamela Patzi|
+|main con mensaje| Sebastián Castro, Ariel Clemente,Pamela Patzi|
+|main| Sebastián Castro|
+|melanoma_a_s_a_p| Sebastián Castro,Ariel Clemente,Pamela Patzi|
+|Edición Github y readme|Pamela Patzi|
